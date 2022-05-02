@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>RNDTN Tactical</title>
+
+</head>
+
+<body>
+
+  <section class="showcase">
+  <header>
+    <h1 class="logo">RnDTN Tactical + Tier 1 Operators + Warfighting Equipment</h1><br><br>
+    <div class="toggle"></div>
+  </header>
+
+  <h2>Top Products</h2>
+  
+  <div class="row">
+      <div class="column">
+        <img src="./img/taclight.jpg" alt="light" width="325" height="350">
+        <p>Tactical Light for everyday use - $90</p>
+      </div>
+      <div class="column">
+        <img src="./img/tacscope.jpg" alt="scope" width="325" height="350">
+          <p>Mountable scope for common rifles - $250</p>
+      </div>
+      <div class="column">
+        <img src="./img/tacmedkit.jpg" alt="medical" width="325" height="350">
+          <p>Lightweight Med Kit for everyday use - $120</p>
+      </div>
+      <div class="column">
+        <img src="./img/infaredtac.jpg" alt="laser" width="325" height="350">
+          <p>Durable and lightweight nightvision accessory - $350</p>
+      </div>
+
+
+    <ul class="social">
+      <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+    </ul>
+
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+  
+
+  <script>
+
+  const menuToggle = document.querySelector('.toggle');
+  const showcase = document.querySelector('.showcase');
+
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+
+  })</script>
+
+
+</body>
+
+
+</html>
